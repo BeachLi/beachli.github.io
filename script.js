@@ -10,7 +10,7 @@ const drone = new ScaleDrone('yiS12Ts5RdNhebyM');
 const roomName = 'observable-' + roomHash;
 const configuration = {
   iceServers: [{
-    urls: 'stun:stun.fwdnet.net:3478'
+    urls: 'stun:stun.voip.aebc.com'
   }]
 };
 let room;
